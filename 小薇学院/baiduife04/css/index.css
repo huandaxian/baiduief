@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    width: 400px;
+    height: 200px;
+    background-color: #cccccc;
+    /*垂直居中 */
+    position: absolute;
+    top: 50%;
+    margin-top:-100px;
+    /*水平居中 绝对定位 50% 再走自己的一半*/
+    left: 50%;
+    margin-left: -200px;
+
+
+
+}
+
+.content-left{
+    height: 50px;
+    width: 50px;
+    background-color:#ffcc02;
+    border-radius:0 0 50px 0;
+    position: absolute;
+    left: 0;
+
+}
+.content-right{
+    height: 50px;
+    width: 50px;
+    background-color:#ffcc02;
+    border-radius: 50px 0 0 0;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}

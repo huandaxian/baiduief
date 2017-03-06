@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 20px;
+    font-weight: 500;
+    /*background-color: #000000;*/
+}
+label{
+    width: 800px;
+    height: 550px;
+    display: block;
+    /*border: 1px solid #e1e1e1;*/
+    margin: 100px auto;
+
+}
+#txt{
+    width: 430px;
+    height: 55px;
+    margin-left: 45px;
+    border-color: #d1d1d1;
+    border-radius: 10px;
+}
+#btn{
+    color: #ffffff;
+    background-color: #2f79ba;
+    border-color: #2f79ba;
+    border-radius: 10px;
+    margin-left: 45px;
+    width: 112px;
+    height: 60px;
+}
+p{
+    font-size: 16px;
+    color: #e1e1e1;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}

@@ -1,0 +1,315 @@
+/*默认设置*/
+
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 25px/150% Arial, Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1";
+    color: #101010;
+    background: #fff
+}
+
+/*.clearfix:before, .clearfix:after {*/
+    /*content: "";*/
+    /*display: table;*/
+/*}*/
+
+/*h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}*/
+/*s,i,em{font-style:normal;text-decoration:none;}*/
+/*.col-red{color: #C81623!important;}*/
+
+/*整体*/
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+}
+
+/*头部 开始了
+*/
+.header {
+    width: 1286px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #343434;
+}
+
+.header img {
+    padding-left: 35px;
+}
+
+.header ul {
+    padding-right: 30px;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
+
+.header ul li {
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    height: 30px;
+    color: white;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+
+}
+
+.header ul .dust a {
+    color: #717171;
+}
+
+/*content部分*/
+.content {
+    width: 1286px;
+    margin: 0 auto;
+    background-color: #dedede;
+}
+
+ /*第一和第二块  文本*/
+.content-first-style {
+    background-color: #fff;
+    padding: 20px;
+    width: 1200px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 2px #888888;
+}
+
+.content-first-style h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #101010;
+}
+
+.content-first-style h3 {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #61646b;
+}
+
+.content-first-style h4 {
+    padding-top: 5px;
+    font-size: 10px;
+    color: #61646b;
+}
+
+.content-first-style p {
+    padding-top: 10px;
+    text-indent: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.content-first-style p a {
+    color: blue;
+}
+
+.content-first-style ul {
+    margin-left: 30px;;
+}
+
+.content-first-style ul li {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+
+}
+
+.top-top {
+    margin: 20px;
+}
+
+/*第三部分   10个图片展示*/
+.content-second-style {
+    background-color: #fff;
+    padding: 20px;
+    width: 1200px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 2px #888888;
+}
+
+.content-second-style h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #101010;
+}
+
+.content-second-style .images-show {
+    width: 125px;
+    height: 125px;
+    border: 1px solid #D0D0D0;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.content-second-style .images-show h4 {
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.images-show .picture-one {
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+/*第四部分   table表格*/
+
+.content-third-style {
+    background-color: #fff;
+    padding: 20px;
+    width: 1200px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 2px #888888;
+}
+
+.content-third-style h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #101010;
+}
+
+.content-third-style h3 {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #61646b;
+}
+
+.content-third-style h4 {
+    padding-top: 5px;
+    font-size: 10px;
+    color: #61646b;
+}
+
+.content-third-style ol {
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-weight: 600;
+
+}
+
+.content-third-style p {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content-third-style table,
+ .content-third-style th,
+.content-third-style td{
+    border: 1px solid #61646b;
+    text-align: left;
+    line-height: 20px;
+
+}
+.content-third-style table {
+    width: 1200px;
+}
+
+.content-third-style th {
+    height: 25px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: #343434;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.content-third-style td {
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 5px;
+}
+
+.content-third-style table .black {
+    background-color: #cccccc;
+    color: #000;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+/*第五块  邮箱登录*/
+.content-fourth-style{
+
+    background-color: #fff;
+    padding: 20px;
+    height: 500px;
+    width: 1200px;
+    margin: 30px auto;
+    box-shadow: 1px 1px 2px #888888;
+}
+.content-fourth-style .myTitle{
+    height: 35px;
+    line-height: 35px;
+    border-left: 3px solid #888888;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+.content-fourth-style  .myInput{
+    font-size: 15px;
+    padding-left: 280px;
+    padding-top: 30px;
+
+}
+.content-fourth-style  h6{
+    color: #a7a1a3;
+    padding-left: 100px;
+    font-weight: 400;
+}
+
+footer{
+
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}

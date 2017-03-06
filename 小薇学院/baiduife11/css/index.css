@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica Neue",
+    Helvetica,
+    Microsoft Yahei,
+    Hiragino Sans GB,
+    WenQuanYi Micro Hei,
+    sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #91d4da;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*margin: 0;*/
+}
+
+header span {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+header h2 {
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    line-height: 100px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+}
+
+/*导航开始*/
+.content .nav {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.content .nav ul {
+    font-size: 40px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.content .nav li {
+    width: 20%;
+    float: left;
+    display: block;
+    list-style: none;
+    line-height: 100px;
+    text-align: center;
+}
+
+.content .nav .select {
+    border-bottom: 3px solid #2e6da4;
+}
+
+.content .nav li a {
+    color: #626262;
+
+}
+
+.content .pic-one {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .content > .pic-one > img {
+        width: 100%;
+    }
+}
+
+/*标签   开始*/
+.content .pag {
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.content .pag .pag-one,
+.content .pag .pag-two,
+.content .pag .pag-three,
+.content .pag .pag-four,
+.content .pag .pag-five {
+    float: left;
+    width: 20%;
+    height: 300px;
+    padding-left: 20px;
+
+}
+
+.content .pag h1 {
+    font-size: 45px;
+
+}
+
+/*分栏*/
+
+.columns {
+    height: 330px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 80px;
+    border-top: 3px solid #e1e1e1;
+}
+
+.columns > div {
+    width: 30%;
+    float: left;
+    padding-top: 30px;
+}
+
+.columns > div > img {
+    display: block;
+    margin: auto;
+}
+
+.columns > div > h1 {
+    text-align: center;
+}
+
+.columns > div > h2 {
+    text-align: center;
+}
+
+.columns-one,
+.columns-two {
+    border-right: 3px solid #e1e1e1;
+}
+
+/*模板一*/
+.first-model ,
+.second-model{
+    margin-top: 79px;
+    width: 100%;
+    height: 540px;
+}
+
+.first-model .title-one ,
+.second-model .title-two {
+    font-size: 45px;
+    color: #767676;
+    height: 60px;
+    border-bottom: 3px solid #e1e1e1;
+    line-height: 60px;
+    padding-left: 30px;
+}
+.first-model .content-one,
+.second-model .content-one{
+    margin-left: 50px;
+}
+.first-model .content-one .left ,
+.second-model .content-one .left {
+    height: 418px;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.first-model  .content-one .left .picture-one ,
+.second-model .left .picture-one {
+    margin-bottom: 30px;
+
+}
+
+.first-model .content-one   ul ,
+.second-model .content-one   ul {
+    width: 30% ;
+    float: left;
+    margin-top: 30px;
+}
+
+.first-model .content-one  ul  li ,
+.second-model .content-one  ul  li {
+    width: 200px;
+    height: 86px;
+    background-color: #f8f8f8;
+    font-size: 35px;
+    text-align: center;
+    line-height: 86px;
+    margin-top: 10px;
+    list-style: none;
+    color: black;
+}
+
+footer{
+    margin-top: 30px;
+
+}
+footer .writings-list {
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+}
+footer .writings-list-two{
+    margin-top: 30px;
+}
+footer .writings-list .my-pic{
+    float: left;
+    margin-right: 50px;
+}
+
+footer .writings-list h1,
+footer .writings-list-two h1{
+    font-size: 32px;
+    color: #666666;
+    font-weight: 600;
+}
+footer .writings-list-two h1{
+    padding-left: 30px;
+}
+footer .writings-list p,
+footer .writings-list-two p{
+    padding-top: 50px;
+    font-size: 22px;
+    color: #cccccc;
+    font-weight: 600;
+}
+footer .writings-list-two .my-pic img{
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+footer .writings-list-two p {
+    margin-top: 141px;
+    padding-left: 30px;
+}
