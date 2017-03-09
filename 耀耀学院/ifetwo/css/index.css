@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+
+
+}
+
+form label{
+    display: block;
+    margin-left: 330px;
+    font-weight: 600;
+    position: relative;
+}
+form input{
+    width: 480px;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 30px;
+    outline: none;
+}
+.check{
+    margin-left: 280px;
+}
+.check p{
+    margin-left: 110px;
+}
+p{
+    display: none;
+    font-size: 15px;
+    margin-left: 65px;
+    font-weight: 500;
+    color: #b6b6b6;
+
+}
+#btn{
+    width: 130px;
+    height: 56px;
+    background-color: #2f79ba;
+    color: #ffffff;
+    border-radius: 10px/10px;
+    margin-top: 21px;
+    position: absolute;
+    left: 410px;
+    top: 20px;
+}
